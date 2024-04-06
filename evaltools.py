@@ -36,14 +36,14 @@ def generate_ranking(nq, nd):
         print('#%d\t'%(d+1)+''.join(row))
     return Q, R
 
-def evaluate(ex,Q,R):
+def evaluate(ex,Q,R,print_screen=True ):
     nq=len(Q)
     nd=len(Q[0])
     R_=np.array(R)
     R_=.5*(R_+1)
     Prec_tot=[]
     Rec_tot=[]    
-    def compute_PR(print_screen=True):
+    def compute_PR(print_screen=print_screen):
         Prec_tot=[]
         Rec_tot=[]        
         if print_screen:
