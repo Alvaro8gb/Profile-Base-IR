@@ -1,4 +1,4 @@
-BASE_PATH = "/home/alvaro/Desktop/InformationProcess/IREI_PracticalWork/data/learn-ai-bbc"
+BASE_PATH = "../data/learn-ai-bbc"
 TRAINING_PATH = BASE_PATH + "/BBC News Train.csv"
 TEST_PATH = BASE_PATH + "/BBC News Test.csv"
 FINAL_DS = BASE_PATH + "/final.csv"
